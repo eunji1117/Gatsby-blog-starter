@@ -46,8 +46,9 @@ React Facebook Web 구현 팀 프로젝트
 
 ----
 ###Study 참고자료
-[ReactJS]()
-[Velopert]()
+[ReactJS](https://reactjs-kr.firebaseapp.com)
+
+[Velopert](https://velopert.com)
 ###그 외 react study
-[Github repository]()<br>
+[Github repository](https://github.com/eunji1117/React-Ringle-Study)<br>
 (todo widget, clock widget, login api, sns feed construct)

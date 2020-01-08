@@ -11,7 +11,7 @@ draft: false
 >[리뉴얼 사이트 바로가기](https://spc-dining.netlify.com)
 <br>
 >[깃허브 저장소 바로가기](https://github.com/eunji1117/SPC-Dining)
-<br>
+
 ### 개발도구
   - VScode
   - HTML5

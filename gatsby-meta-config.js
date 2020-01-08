@@ -1,5 +1,5 @@
 module.exports = {
-  title: `EunJi Choi's Portfolio`,
+  title: `EunJi Choi`,
   description: `Blog posted about develop log`,
   author: `[EunJI]`,
   introduction: `웹 퍼블리싱과 프론트 개발을 공부하는 포트폴리오 블로그입니다 :)`,
