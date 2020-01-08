@@ -1,14 +1,14 @@
 module.exports = {
-  title: `EunJi Choi`,
-  description: `Blog posted about portpolio, devlog, study,...`,
+  title: `EunJi Choi's Portfolio`,
+  description: `Blog posted about develop log`,
   author: `[EunJI]`,
-  introduction: `웹 퍼블리싱과 프론트 개발을 공부하는 포트폴리오 블로그입니다 ;)`,
+  introduction: `웹 퍼블리싱과 프론트 개발을 공부하는 포트폴리오 블로그입니다 :)`,
   siteUrl: `https://eunji.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/eunji1117`, // Your GitHub account
+    github: `eunji1117`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `https://www.facebook.com/dlwldlwl`, // Your Facebook account
+    facebook: `dlwldlwl`, // Your Facebook account
   },
   icon: `content/assets/profile_me.jpeg`, // Add your favicon
   keywords: [`blog`],

@@ -8,6 +8,6 @@ lang: 'en'
 
 <div align="center">
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+_Thank you for reading my resume.<br>If you want to contact me, Please send me an email.<br><strong>eunjichoi1117@gmail.com</strong>_
 
 </div>
