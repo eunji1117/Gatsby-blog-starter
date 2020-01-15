@@ -7,7 +7,8 @@ draft: false
 ## SPC-Dining
 웹 표준, 접근성을 준수하며 기존 사이트를 퍼블리싱 관점으로 보완한 웹 리뉴얼
 
-![SPC-Dining preview](./images/spc-dining.png)
+![SPC-Dining preview](./images/spc-dining.gif)
+<!-- ![](https://media.giphy.com/media/MWdOAxxPDEhNKyzXVK/giphy.gif){: width="50%" height="50%"}{: .center} -->
 >[기존 사이트 바로가기](http://dining.spc.co.kr/)
 <br>
 >[리뉴얼 사이트 바로가기](https://spc-dining.netlify.com)

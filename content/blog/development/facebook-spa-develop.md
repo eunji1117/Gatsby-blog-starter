@@ -7,7 +7,7 @@ draft: false
 ## Facebook front develop (REACT)
 React Facebook SPA 구현 팀 프로젝트
 
-![Facebook Web preview](./images/facebook.png)
+![Facebook Web preview](./images/facebook.gif)
 >[페이스북 바로가기](https://www.facebook.com/)
 <br>
 >[프로젝트 바로가기](https://facebook-react.netlify.com)
