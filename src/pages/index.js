@@ -4,7 +4,7 @@ import _ from 'lodash'
 
 import { Layout } from '../layout'
 import { Bio } from '../components/bio'
-import { Nav } from '../components/nav'
+// import { Nav } from '../components/nav'
 import { Head } from '../components/head'
 import { Category } from '../components/category'
 import { Home } from '../components/home'

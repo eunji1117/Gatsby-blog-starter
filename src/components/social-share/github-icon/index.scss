@@ -2,4 +2,8 @@
   float: right;
   padding: 14px;
   opacity: 0.6;
+  transition: all .3s;
+}
+.github:hover {
+  opacity: 1;
 }

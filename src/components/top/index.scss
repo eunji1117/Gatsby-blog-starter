@@ -2,19 +2,38 @@
 
 .top {
   position: relative;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 60px;
+  height: 120px;
   // background: $theme-gradient;
 
   .link {
     display: inline-block;
-    font-size: 40px;
+    font-size: 55px;
     padding-top: 8px;
-    // color: $top-header-text-color;
+    color: $top-header-text-color;
     color: #000;
     opacity: 0.8;
     margin-left: 20px;
     font-family: 'Catamaran';
     font-weight: 1000;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+
+    .contact__mail {
+      width: 49px;
+      height: 35px;
+      padding: 14px;
+      background: url(../home/images/ico_contact.png) no-repeat 12px 0/35px;
+      opacity: .6;
+      cursor: pointer;
+      transition: all .3s;
+    }
+    .contact__mail:hover {
+      opacity: 1;
+    }
   }
 }

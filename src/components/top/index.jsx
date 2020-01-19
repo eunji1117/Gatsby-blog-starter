@@ -4,7 +4,7 @@ import { GitHubIcon } from '../social-share/github-icon'
 
 import './index.scss'
 
-export const Top = ({ title, location, rootPath }) => {
+export const Top = ({ nav, title, location, rootPath }) => {
   const isRoot = location.pathname === rootPath
   return (
     <div className="top">
@@ -12,7 +12,10 @@ export const Top = ({ title, location, rootPath }) => {
       <Link to={`/`} className="link">
         {title}
       </Link>
-      <GitHubIcon />
+      <div  className="contact">
+        <GitHubIcon />
+        <div className="contact__mail" />
+      </div>
     </div>
   )
 }

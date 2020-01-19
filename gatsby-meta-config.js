@@ -2,7 +2,7 @@ module.exports = {
   title: `EunJi Choi`,
   description: `Blog posted about develop log`,
   author: `[EunJI]`,
-  introduction: `프론트엔드를 지향하는 웹 퍼블리셔 최은지입니다. 사용자 경험을 위한 표준과 접근성을 준수한 마크업에 관심이 많으며,
+  introduction: `프론트엔드를 지향하는 웹 퍼블리셔 최은지입니다. 사용자 경험을 위한 표준과 접근성 준수 마크업에 관심이 많으며,
   더 나은 프론트 구현을 위한 고민과 문제해결을 위한 활동을 지향합니다.`,
   siteUrl: `https://eunji.dev`, // Your blog site url
   social: {

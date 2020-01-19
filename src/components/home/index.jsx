@@ -4,11 +4,6 @@ import './index.scss'
 
 export const Home = () => (
     <main className="home">
-        {/* <div>
-            프론트엔드를 지향하는 웹 퍼블리셔 최은지입니다.<br/>
-            더 나은 사용자 경험을 위한 표준과 접근성을 준수한 마크업 관심이 많으며,<br/>
-            더 나은 프론트 구현을 위한 자기개발과 스터디 활동을 통한 발전을 지향합니다.
-        </div> */}
         <h2>STACK</h2>
         <div className="home__skill">
             <div className="skill">
@@ -46,7 +41,7 @@ export const Home = () => (
             </div>
         </div>
         <div className="home__experience">
-            <h2 className="home__title">Experience</h2>
+            <h2 className="home__title">EXPERIENCE</h2>
             <div className="home__contents content">
                 <h3 className="content__title">Web dev self study group</h3>
                 <p className="content__sub">개발자 스터디 그룹 (19.09 - )</p>

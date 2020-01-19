@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Top } from '../components/top'
+import { Nav } from '../components/nav'
 import { Header } from '../components/header'
 import { ThemeSwitch } from '../components/theme-switch'
 import { Footer } from '../components/footer'
@@ -13,7 +14,10 @@ export const Layout = ({ location, title, children }) => {
 
   return (
     <React.Fragment>
-      <Top title={title} location={location} rootPath={rootPath} />
+      <div className="top-wrap">
+        <Top title={title} location={location} rootPath={rootPath} nav={Nav} />
+        <Nav />
+      </div>
       <div
         style={{
           marginLeft: `auto`,

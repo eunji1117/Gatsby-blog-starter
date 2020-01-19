@@ -1,25 +1,29 @@
 import React from 'react'
-import { rhythm } from '../../utils/typography'
 
 import './index.scss'
 
-export const Nav = ({rhythm}) => {
+export const Nav = () => {
     return (
         <nav>
             <ul className="nav category-container">
                 <li className="item">
                     <div>
-                        Skill
+                        STACK
                     </div>
                 </li>
                 <li className="item">
                     <div>
-                        Experience
+                        EXPERIENCE
                     </div>
                 </li>
                 <li className="item">
                     <div>
-                        Project
+                        PROJECT - SPC Dining
+                    </div>
+                </li>
+                <li className="item">
+                    <div>
+                        PROJECT - Facebook SPA
                     </div>
                 </li>
             </ul>
