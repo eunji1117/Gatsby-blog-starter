@@ -46,6 +46,11 @@ export const Bio = () => (
                     </a>
                   )}
                 </p>
+                <ul>
+                  <li>About Me</li>
+                  <li>Resume</li>
+                  <li>Blog</li>
+                </ul>
               </div>
             </div>
           </div>
