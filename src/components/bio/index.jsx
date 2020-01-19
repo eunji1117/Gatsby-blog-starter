@@ -46,11 +46,11 @@ export const Bio = () => (
                     </a>
                   )}
                 </p>
-                <ul>
+                {/* <ul>
                   <li>About Me</li>
                   <li>Resume</li>
                   <li>Blog</li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
