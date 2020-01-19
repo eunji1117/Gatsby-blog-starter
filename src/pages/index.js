@@ -4,8 +4,10 @@ import _ from 'lodash'
 
 import { Layout } from '../layout'
 import { Bio } from '../components/bio'
+import { Nav } from '../components/nav'
 import { Head } from '../components/head'
 import { Category } from '../components/category'
+import { Home } from '../components/home'
 import { Contents } from '../components/contents'
 
 import * as ScrollManager from '../utils/scroll'
@@ -80,12 +82,19 @@ export default ({ data, location }) => {
         category={category}
         selectCategory={selectCategory}
       />
-      <Contents
+      <ul className="pofol">
+        {/* <div>PORTFOLIO</div> */}
+        <li><a href="https://spc-dining.netlify.com/" target="_blank">SPC Dining 사이트 리뉴얼 (HTML5,CSS3,JS)</a></li>
+        <li><a href="https://facebook-react.netlify.com/" target="_blank">Facebook SPA 구현 팀 프로젝트 (ReactJS,CSS3,ES6)</a></li>
+      </ul>
+      {/* <Nav /> */}
+      <Home />
+      {/* <Contents
         posts={posts}
         countOfInitialPost={countOfInitialPost}
         count={count}
         category={category}
-      />
+      /> */}
     </Layout>
   )
 }

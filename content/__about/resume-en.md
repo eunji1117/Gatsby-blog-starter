@@ -154,5 +154,4 @@ ReactJS를 사용하여 페이스북 SPA를 구현하는 팀 프로젝트를 진
 
 ***
 
-더 궁금하신 점은 메일을 남겨주시면 감사하겠습니다. :)<br>
 <strong>eunjichoi1117@gmail.com</strong>

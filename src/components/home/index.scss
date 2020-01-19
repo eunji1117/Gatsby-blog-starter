@@ -1,0 +1,189 @@
+@import '../../styles/variables.scss';
+
+.home {
+    padding-bottom: 50px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    color: #334455;
+    font-size: 80%;
+    text-align: center;
+    list-style-type: none;
+
+    h2 {
+        margin-top: 200px;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+    
+    h3 {
+        margin-top: 60px;
+    }
+    h4 {
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 8px;
+        background: #f4f7f8;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .home__skill {
+        margin: 0 30px;
+
+        .skill {
+            display: flex;
+            justify-content: space-around;
+
+            .skill__img {
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                padding-top: 80px;
+                margin-top: 40px;
+                // background: #ecf0f2;
+            }
+            .pub:nth-child(1) {
+                background: url(./images/html5.png) no-repeat 10px/60px;
+            }
+            .pub:nth-child(2) {
+                background: url(./images/css3.png) no-repeat 10px/60px;
+            }
+            .pub:nth-child(3) {
+                background: url(./images/js.png) no-repeat 10px/60px;
+            }
+            .pub:nth-child(4) {
+                background: url(./images/jquery.png) no-repeat 10px/60px;
+            }
+    
+            .front:nth-child(1) {
+                background: url(./images/react.png) no-repeat 10px/60px;
+            }
+            .front:nth-child(2) {
+                background: url(./images/es6.jpeg) no-repeat 10px/60px;
+            }
+            .front:nth-child(3) {
+                background: url(./images/sass.png) no-repeat 10px/60px;
+            }
+            .front:nth-child(4) {
+                background: url(./images/bem.png) no-repeat 10px/60px;
+            }
+    
+            .tool:nth-child(1) {
+                background: url(./images/vscode.png) no-repeat 10px/60px;
+            }
+            .tool:nth-child(2) {
+                background: url(./images/gatsby.png) no-repeat 10px/60px;
+            }
+            .tool:nth-child(3) {
+                background: url(./images/git.png) no-repeat 10px/60px;
+            }
+        }
+        .skil__detail {
+            margin-top: 45px;
+            padding: 10px;
+            border-radius: 8px;
+            background: #f4f7f8;
+        }
+    }
+
+    .home__content {
+        padding: 10px 0 25px;
+        margin-top: 20px;
+        border-radius: 8px;
+        background: #f4f7f8;
+
+        .content__title {
+            margin-top: 10px;
+        }
+    }
+
+    .portfolio_react {
+        margin-top: 30px;
+    }
+
+    .detail__content {
+        
+        span {
+            display: block;
+        }
+    }
+
+    .home__portfolio {
+
+        .portfolio_spc {
+
+            .project_detail {
+                padding-top: 360px;
+                background: url(./images/spc-dining.gif) no-repeat 0 10px/100%;
+            }
+        }
+        .portfolio_react {
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            
+            .project_detail {
+                padding-top: 360px;
+                background: url(./images/facebook.gif) no-repeat 0 10px/100%;
+            }
+        }
+
+        .home__wrap {
+    
+            .project_detail {
+
+                .project_link {
+                    
+                    a {
+                        display: inline-block;
+                        padding: 5px;
+                    }
+
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                h5:nth-of-type(1) {
+                    margin: 10px 0 5px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        
+        .content__detail {
+
+            span {
+                display: block;
+            }
+        }
+
+        .project_detail {
+
+            span {
+                display: block;
+            }
+        }
+    }
+}
+.pofol {
+    padding: 5px 10px;
+    margin: 5px 5px 10px;
+    font-size: 13px;
+    border-radius: 8px;
+    background: #f4f7f8;
+
+    li {
+        margin: 0 30px;
+        padding: 5px 0px;
+    }
+    a {
+        color: #000080;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0);
+        transition: all .3s;
+    }
+
+    a:hover {
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+}

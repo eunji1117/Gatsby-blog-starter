@@ -8,5 +8,6 @@ export const Footer = () => (
     <a href="https://github.com/JaeYeopHan/gatsby-starter-bee">
       Gatsby-starter-bee
     </a>
+    <div>Refactoring by <strong>EunJi</strong></div>
   </footer>
 )
