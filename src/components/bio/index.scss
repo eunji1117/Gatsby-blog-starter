@@ -1,13 +1,9 @@
 @import '../../styles/variables.scss';
 
 .bio {
-  margin-top: -150px;
+  margin-top: 120px;
   margin-bottom: 24px;
   text-align: center;
-
-  .author-description {
-    // display: flex;f
-  }
 
   .author-image {
     display: block;
@@ -94,5 +90,11 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .bio {
+    margin-top: 0;
   }
 }

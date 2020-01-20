@@ -1,11 +1,6 @@
 @import '../../styles/variables.scss';
 
-.nav {
-    overflow-x: scroll;
-    position: sticky;
-    width: 300px;
-    top: 0;
-    left: 0;
+.gnb {
     display: flex;
     flex-direction: column;
     justify-content: space-around;

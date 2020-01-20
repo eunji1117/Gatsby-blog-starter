@@ -1,7 +1,8 @@
 @import '../../styles/variables.scss';
 
 .top {
-  position: relative;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -19,6 +20,18 @@
     font-family: 'Catamaran';
     font-weight: 1000;
   }
+
+  .gnb-wrap {
+    width: 300px;
+    top: 100px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .gnb-wrap {
+      display: none;
+    }
+  }
+
   .contact {
     display: flex;
     flex-direction: column;
@@ -35,5 +48,11 @@
     .contact__mail:hover {
       opacity: 1;
     }
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .top {
+    position: static;
   }
 }

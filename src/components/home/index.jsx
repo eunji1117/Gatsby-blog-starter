@@ -77,7 +77,7 @@ export const Home = () => (
                     <p className="content__sub">HTML5, CSS3, Javascript, Jquery<br/>2019.10 - 2019.12</p>
                     <div className="content__detail">
                         <span><strong>SPC dining 웹 리뉴얼 프로젝트 진행</strong></span>
-                        <span>Grid system / Float, Position / Flex 레이아웃 실습</span>
+                        <span>Grid system / Float, Position / Flex 레이아웃 / 반응형 실습</span>
                         <span>효율적인 인터렉션 구현을 위한 script plugin 실습</span>
                     </div>
                 </div>

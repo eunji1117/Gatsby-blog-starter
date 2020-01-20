@@ -5,7 +5,7 @@ import './index.scss'
 export const Nav = () => {
     return (
         <nav>
-            <ul className="nav category-container">
+            <ul className="gnb category-container">
                 <li className="item">
                     <div>
                         STACK
