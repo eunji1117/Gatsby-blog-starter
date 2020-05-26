@@ -5,9 +5,8 @@ lang: 'en'
 ---
 <!-- <div align="center"></div> -->
 <h1>최은지 EunJi Choi</h1>
-웹 퍼블리싱과 프론트 개발을 공부하고 있습니다.<br>
-사용자 경험을 위한 표준과 접근성을 준수한 마크업에 관심이 많으며,<br>
-더 나은 프론트 구현을 위한 자기개발과 스터디 활동을 통한 발전을 지향합니다.
+사용자 경험을 위한 마크업 설계를 고민하며,<br/>
+더 나은 프론트 구현을 위한 모듈화 시스템에 관심이 많은 프론트엔드 개발자입니다.
 
 <!-- ![](../blog/development/images/html5.png) ![](../blog/development/images/css3.png) ![](../blog/development/images/js.png) ![](../blog/development/images/jquery.png)
 
@@ -77,7 +76,7 @@ lang: 'en'
 기존 사이트를 퍼블리싱 관점으로 리뉴얼한 웹 사이트입니다.
 <br>
 
-![SPC-Dining preview](../blog/development/images/spc-dining.gif)
+<!-- ![SPC-Dining preview](../blog/development/images/spc-dining.gif) -->
 [기존 사이트 바로가기](http://dining.spc.co.kr/)
 <br>
 [리뉴얼 사이트 바로가기](https://spc-dining.netlify.com)
@@ -128,7 +127,7 @@ ReactJS를 사용하여 페이스북 SPA를 구현하는 팀 프로젝트를 진
 
 <br>
 
-![Facebook Web preview](../blog/development/images/facebook.gif)
+<!-- ![Facebook Web preview](../blog/development/images/facebook.gif) -->
 >[페이스북 바로가기](https://www.facebook.com/)
 <br>
 >[프로젝트 바로가기](https://facebook-react.netlify.com)

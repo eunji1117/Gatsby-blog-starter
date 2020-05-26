@@ -45,7 +45,8 @@ export const Bio = () => (
                     </a>
                   )}
                 </p>
-                <div className="author-introduction">{introduction}</div>
+                {/* <div className="author-introduction">{introduction}</div> */}
+                <div className="author-introduction">사용자 경험을 위한 마크업 설계를 고민하며,<br/>더 나은 프론트 구현을 위한 모듈화 시스템에 관심이 많은 프론트엔드 개발자입니다.</div>
               </div>
             </div>
           </div>

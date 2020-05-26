@@ -15,7 +15,11 @@ export const Category = ({ categories, category, selectCategory }) => {
         margin: `0 -${rhythm(3 / 4)}`,
       }}
     >
-      <Item title={'All'} category={category} selectCategory={selectCategory} />
+      <Item 
+        title={'All'} 
+        category={category} 
+        // selectCategory={selectCategory} 
+      />
       {categories.map((item, idx) => (
         <Item
           key={idx}

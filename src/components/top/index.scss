@@ -35,14 +35,16 @@
   .contact {
     display: flex;
     flex-direction: column;
+    margin-top: 14px;
+    margin-right: 14px;
 
     .contact__mail {
-      width: 49px;
-      height: 35px;
-      padding: 14px;
-      background: url(../home/images/ico_contact.png) no-repeat 12px 0/35px;
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin-top: 14px;
+      background: url(../home/images/ico_contact.png) no-repeat center/100%;
       opacity: .6;
-      cursor: pointer;
       transition: all .3s;
     }
     .contact__mail:hover {

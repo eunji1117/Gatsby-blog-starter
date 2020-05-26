@@ -1,9 +1,10 @@
 .github {
   float: right;
-  padding: 14px;
+  height: 32px;
   opacity: 0.6;
   transition: all .3s;
-}
-.github:hover {
-  opacity: 1;
+
+  &:hover {
+    opacity: 1;
+  }
 }

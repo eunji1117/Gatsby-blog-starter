@@ -1,12 +1,16 @@
 import React from 'react'
+import { useState } from 'react'
 import { Link } from 'gatsby'
 import { Nav } from '../nav'
 import { GitHubIcon } from '../social-share/github-icon'
 
 import './index.scss'
 
-export const Top = ({ nav, title, location, rootPath }) => {
-  const isRoot = location.pathname === rootPath
+export const Top = ({ title, location, rootPath }) => {
+  const [selectedTitle, setSelectedTitle] = useState;
+
+  const isRoot = location.pathname === rootPath;
+
   return (
     <div className="top">
       {/* {!isRoot && ( */}
@@ -20,7 +24,7 @@ export const Top = ({ nav, title, location, rootPath }) => {
       </div>
       <div  className="contact">
         <GitHubIcon />
-        <div className="contact__mail" />
+        <a className="contact__mail" href="mailto:eunjichoi1117@gmai.com"></a>
       </div>
     </div>
   )

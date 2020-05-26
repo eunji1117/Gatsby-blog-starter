@@ -4,13 +4,13 @@ import './index.scss'
 
 export const Home = () => (
     <main className="home">
-        <h2>STACK</h2>
+        <h2 id="STACK" className="home__title">STACK</h2>
         <div className="home__skill">
             <div className="skill">
                 <span className="skill__img pub">HTML5</span>
                 <span className="skill__img pub">CSS3</span>
                 <span className="skill__img pub">Javascript</span>
-                <span className="skill__img pub">Jquery</span>
+                <span className="skill__img pub">ES6</span>
             </div>
             <div className="skil__detail">
                 접근성과 표준을 준수하는 시멘틱 마크업과 CSS로 최대한의 UI를 구현합니다.<br/>
@@ -19,21 +19,22 @@ export const Home = () => (
         </div>
         <div className="home__skill">
             <div className="skill">
+                <span className="skill__img front">VueJS</span>
                 <span className="skill__img front">ReactJS</span>
-                <span className="skill__img front">ES6</span>
-                <span className="skill__img front">SASS</span>
-                <span className="skill__img front">BEM</span>
+                <span className="skill__img front">NextJS</span>
+                <span className="skill__img front">SCSS</span>
             </div>
             <div className="skil__detail">
-                프레임워크를 활용한 팀 프로젝트 경험으로 단순 UI 설계를 넘어 성능 측면에서의 프론트를 고민하며,<br/>
+                프레임워크를 활용한 팀 프로젝트 경험으로 UI 설계를 넘어 성능 측면에서의 프론트를 고민하며,<br/>
                 확장 가능한 프론트 구현을 위한 모듈화 시스템에 대하여 긍정적인 고민을 즐깁니다.
             </div>
         </div>
         <div className="home__skill">
             <div className="skill">
                 <span className="skill__img tool">VScode</span>
-                <span className="skill__img tool">Gatsby</span>
                 <span className="skill__img tool">Github</span>
+                <span className="skill__img tool">Gatsby</span>
+                <span className="skill__img tool">BEM</span>
             </div>
             <div className="skil__detail">
                 커뮤니케이션과 공유를 원활히 할 수있는 확장성 있는 프로그램을 사용하고,<br/>
@@ -41,7 +42,7 @@ export const Home = () => (
             </div>
         </div>
         <div className="home__experience">
-            <h2 className="home__title">EXPERIENCE</h2>
+            <h2 id="EXPERIENCE" className="home__title">EXPERIENCE</h2>
             <div className="home__contents content">
                 <h3 className="content__title">Web dev self study group</h3>
                 <p className="content__sub">개발자 스터디 그룹 (19.09 - )</p>
@@ -69,6 +70,42 @@ export const Home = () => (
                 </div>
             </div>
         </div>
+        <div className="home__work">
+            <h2 id="WORK" className="home__title">WORK</h2>
+            <div className="home__wrap portfolio_spc">
+                <div className="home__content">
+                    <h3 className="content__title">겟차 웹 프론트 개발 담당</h3>
+                    <p className="content__sub">Vue, React(Next), ES6<br/>2020.02 - 재직 중</p>
+                    <div className="content__detail">
+                        <span><strong>자사 웹 서비스 및 하이브리드 웹뷰 개발</strong></span><br/>
+                        <span>반응형 웹 및 랜딩 페이지 작업</span>
+                    </div>
+                </div>
+                <h3>PROJECT</h3>
+                <h4>1. 딜러 서비스 개발</h4>
+                <p className="work-desc">
+                    - Vue.js / 모바일 웹 (20.02-)<br/>
+                    - 넓은 사용자층을 고려하여 유저 경험을 우선시한 서비스 로직<br/>
+                    - 다양한 데이터 상태값에 분기한 정보 전달로 사용자 친화적 UI 구축<br/>
+                    - Lifecycle을 활용한 api 호출 및 데이터 가공의 최적화를 고려한 개발<br/>
+                    (infinity scroll, list sort, modal layer)
+                </p>
+                <h4>2. 하이브리드 웹뷰 개발</h4>
+                <p className="work-desc">
+                    - Vue.js, Vuex / 모바일 웹 (20.04-)<br/>
+                    - 네이티브와 앱뷰 간 데이터 및 url 호출 (query string, call native function)<br/>
+                    - 커뮤니티 상세 게시글 내 다양한 첨부 기능 템플릿 작업 (투표, 위치첨부, 별점, 링크 및 이미지)<br/>
+                    - 작업 효율성을 고려한 모듈화 작업 (vuex, vue filter)
+                </p>
+                <h4>3. 자사 반응형 웹 개발</h4>
+                <p className="work-desc">
+                    - React.js, Next.js / 반응형 웹 (20.05-)<br/>
+                    - SEO를 타겟으로 웹 사업 확장을 위한 개발 진행 (실거래가 리스트, 커뮤니티 작업)<br/>
+                    - 반응형 작업을 고려한 컨포넌트 구조 설계<br/>
+                    - SEO를 고려한 시멘틱 마크업 (접근성 고려 및 meta tag - keyword, og, title)
+                </p>
+            </div>
+        </div>
         <div className="home__portfolio">
             <h2 className="home__title">PORTFOLIO</h2>
             <div className="home__wrap portfolio_spc">
@@ -94,12 +131,11 @@ export const Home = () => (
                     <div>
                         <span>웹 표준과 접근성 준수</span>
                         <span>SEO 시스템을 고려한 시멘틱 마크업</span>
-                        <span>랜더링 뷰의 최적화를 위한 태그 삽입 위치 고려</span>
                     </div>
                     <div>
                     <h4>2. CSS3</h4>
                         <span>아이콘, 인터렉션 css 구현으로 가벼운 설계</span>
-                        <span>Ratio box, rem, per, vw 등 가변 레이아웃 셋팅</span>
+                        <span>가변 단위를 사용한 동적 레이아웃 구조</span>
                         <span><strong>4단계 반응형 Web</strong> : Desktop, Laptop<br/>
                         Tablet ( 960 - 1024px , 720 - 960px ), Mobile ( 720px - )</span>
                     </div>
@@ -122,7 +158,7 @@ export const Home = () => (
                         <span>Component 구조, 재사용성, 데이터 상태관리에 대한 고려</span>    
                     </div>
                 </div>
-                <h3>Facebook Web 구현 팀프로젝트 (19.12 - 진행중)</h3>
+                <h3>Facebook Web 구현 팀프로젝트 (19.12 - 20.01)</h3>
                 <p>ReactJS를 사용하여 페이스북 SPA를 구현하는 팀 프로젝트를 진행하고 있습니다.</p>
                 <div className="project_detail">
                     <div className="project_link">
@@ -132,21 +168,20 @@ export const Home = () => (
                     </div>
                     <h4>1. ReactJS</h4>
                     <div>
-                        <h5>JSX, ES6 문법의 데이터 리스트업</h5>
-                        <span>Arrow function, Array method map, filter 등 사용</span>
-                        <h5>CRUD (create, read, update, delete) 기능</h5>
+                        <h5>JSX, ES6 문법을 사용한 컨포넌트 설계</h5>
+                        <span>Arrow function, Array method 사용</span>
+                        <h5>CRUD (create, read, update, delete)</h5>
                         <span>검색기록, 피드, 댓글의 수정 및 삭제, 친구 검색 기능 적용</span>
-                        <h5>랜더링 및 재사용의 효율성을 위한 component 설계</h5>
-                        <span>계정, 피드 폼, 댓글 컨포넌트 등 재사용 적용</span>
+                        <h5>재사용이 가능한 component module 설계</h5>
                     </div>
                     <div>
                         <h4>2. CSS3</h4>
                         <div>
                             <span>Flex를 활용한 flexible layout</span>
-                            <span>Input 요소로 다양한 form UI 설계</span>
-                            <span>키보드 접근성를 고려한 사용자 관점의 웹 구축</span>
-                            <span>Sprite img를 사용한 효율적인 이미지 렌더링</span>
-                            <span>hover, click 시 animation, tootip, pop over 효과</span>
+                            <span>SignIn, Newfeed 등의 다양한 form UI 설계</span>
+                            <span>효율적인 이미지 렌더링을 고려한 Sprite img 제작</span>
+                            <span>접근성를 고려한 사용자 관점의 웹 구축 (tap, keyboard controll)</span>
+                            <span>trantition, tootip, pop over 효과 적용</span>
                         </div>
                     </div>
                     <h4>3. Github</h4>

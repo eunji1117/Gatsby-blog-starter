@@ -1,31 +1,19 @@
 import React from 'react'
-
+import { Item } from './item'
 import './index.scss'
 
 export const Nav = () => {
+    const navCategories = ['STACK', 'EXPERIENCE', 'WORK'];
+
     return (
         <nav>
             <ul className="gnb category-container">
-                <li className="item">
-                    <div>
-                        STACK
-                    </div>
-                </li>
-                <li className="item">
-                    <div>
-                        EXPERIENCE
-                    </div>
-                </li>
-                <li className="item">
-                    <div>
-                        PROJECT - SPC Dining
-                    </div>
-                </li>
-                <li className="item">
-                    <div>
-                        PROJECT - Facebook SPA
-                    </div>
-                </li>
+                {navCategories.map((item, idx) => (
+                    <Item
+                    key={idx}
+                    title={item}
+                    />
+                ))}
             </ul>
         </nav>
     )

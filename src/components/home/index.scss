@@ -10,7 +10,11 @@
     list-style-type: none;
 
     h2 {
+        // position: sticky;
+        // top: 0;
         margin-top: 225px;
+        padding-top: 10px;
+        background: rgba(255,255,255,0.8);
         text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     }
     
@@ -50,30 +54,35 @@
                 background: url(./images/js.png) no-repeat 10px/60px;
             }
             .pub:nth-child(4) {
-                background: url(./images/jquery.png) no-repeat 10px/60px;
+                background: url(./images/es6.jpeg) no-repeat 10px/60px;
+                // background: url(./images/jquery.png) no-repeat 10px/60px;
             }
     
             .front:nth-child(1) {
-                background: url(./images/react.png) no-repeat 10px/60px;
+                background: url(./images/vue.png) no-repeat -5px/90px;
+                // background: url(./images/react.png) no-repeat 10px/60px;
             }
             .front:nth-child(2) {
-                background: url(./images/es6.jpeg) no-repeat 10px/60px;
+                background: url(./images/react.png) no-repeat 10px/60px;
             }
             .front:nth-child(3) {
-                background: url(./images/sass.png) no-repeat 10px/60px;
+                background: url(./images/next.png) no-repeat -5px/90px;
             }
             .front:nth-child(4) {
-                background: url(./images/bem.png) no-repeat 10px/60px;
+                background: url(./images/sass.png) no-repeat 10px/60px;
             }
     
             .tool:nth-child(1) {
                 background: url(./images/vscode.png) no-repeat 10px/60px;
             }
             .tool:nth-child(2) {
-                background: url(./images/gatsby.png) no-repeat 10px/60px;
+                background: url(./images/git.png) no-repeat 10px/60px;
             }
             .tool:nth-child(3) {
-                background: url(./images/git.png) no-repeat 10px/60px;
+                background: url(./images/gatsby.png) no-repeat 10px/60px;
+            }
+            .tool:nth-child(4) {
+                background: url(./images/bem.png) no-repeat 10px/60px;
             }
         }
         .skil__detail {
@@ -103,6 +112,12 @@
         
         span {
             display: block;
+        }
+    }
+
+    .home__work {
+        .work-desc {
+            line-height: 25px;
         }
     }
 

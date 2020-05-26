@@ -3,14 +3,27 @@
 .gnb {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 0;
+    align-items: flex-start;
     margin: 0px 10px 0;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0);
-    transition: all .3s;
+
+    .item {
+        width: auto !important;
+        display: block !important;
+        margin: 5px 0 !important;
+        border-radius: 0 !important;
+        letter-spacing: 1.5px;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0);
+        transition: all .4s;
+
+        .link {
+            color: #000;
+            font-weight: normal;
+            font-size: 100%;
+        }
+    }
 
     .item:hover {
-        font-weight: bold;
-        text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        letter-spacing: 3.5px;
     }
 }
