@@ -7,7 +7,6 @@ import { GitHubIcon } from '../social-share/github-icon'
 import './index.scss'
 
 export const Top = ({ title, location, rootPath }) => {
-  const [selectedTitle, setSelectedTitle] = useState;
 
   const isRoot = location.pathname === rootPath;
 
